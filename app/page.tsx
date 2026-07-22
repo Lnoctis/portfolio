@@ -106,7 +106,7 @@ Office,"Microsoft Word, Microsoft Excel, Microsoft PowerPoint",Expert`
                 content: `{
   "id": "chrome-extension",
   "title": "Chrome Extension + n8n Automation",
-  "github": "https://github.com/giovani-alday/chrome-extension",
+  "github": "https://github.com/Lnoctis/cect-n8n",
   "description": "Automated system to extract highlighted text and store it in spreadsheets.",
   "tech": ["JavaScript", "n8n", "Webhooks"],
   "features": [
@@ -662,7 +662,7 @@ export default function Home() {
             { text: "▶ Launching Chrome Extension + n8n Webhook Automation...", type: "system" },
             { text: "[Extension] Captured active page text snippet.", type: "output" },
             { text: "[POST Webhook] Sending payload to n8n Cloud Instance...", type: "system" },
-            { text: "[HTTP 200 OK] Repository: https://github.com/giovani-alday/chrome-extension", type: "success" }
+            { text: "[HTTP 200 OK] Repository: https://github.com/Lnoctis/cect-n8n", type: "success" }
           ];
         } else if (commandArg.includes("voting")) {
           responseLines = [
